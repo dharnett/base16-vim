@@ -100,21 +100,21 @@ endif
 " Neovim terminal colours
 if has("nvim")
   let g:terminal_color_0 =  "#1d1f21"
-  let g:terminal_color_1 =  "#cc6666"
-  let g:terminal_color_2 =  "#b5bd68"
-  let g:terminal_color_3 =  "#f0c674"
-  let g:terminal_color_4 =  "#81a2be"
-  let g:terminal_color_5 =  "#b294bb"
-  let g:terminal_color_6 =  "#8abeb7"
-  let g:terminal_color_7 =  "#c5c8c6"
-  let g:terminal_color_8 =  "#969896"
+  let g:terminal_color_1 =  "#b65353"
+  let g:terminal_color_2 =  "#9da551"
+  let g:terminal_color_3 =  "#efa460"
+  let g:terminal_color_4 =  "#7092ae"
+  let g:terminal_color_5 =  "#967890"
+  let g:terminal_color_6 =  "#6f9e98"
+  let g:terminal_color_7 =  "#707880"
+  let g:terminal_color_8 =  "#595d63"
   let g:terminal_color_9 =  "#cc6666"
   let g:terminal_color_10 = "#b5bd68"
   let g:terminal_color_11 = "#f0c674"
   let g:terminal_color_12 = "#81a2be"
   let g:terminal_color_13 = "#b294bb"
   let g:terminal_color_14 = "#8abeb7"
-  let g:terminal_color_15 = "#ffffff"
+  let g:terminal_color_15 = "#c5c8c6"
   let g:terminal_color_background = g:terminal_color_0
   let g:terminal_color_foreground = g:terminal_color_5
   if &background == "light"
@@ -124,6 +124,14 @@ if has("nvim")
 elseif has("terminal")
   let g:terminal_ansi_colors = [
         \ "#1d1f21",
+        \ "#b65343",
+        \ "#9da551",
+        \ "#efa460",
+        \ "#7092ae",
+        \ "#967890",
+        \ "#6f9e98",
+        \ "#707880",
+        \ "#595d63",
         \ "#cc6666",
         \ "#b5bd68",
         \ "#f0c674",
@@ -131,14 +139,6 @@ elseif has("terminal")
         \ "#b294bb",
         \ "#8abeb7",
         \ "#c5c8c6",
-        \ "#969896",
-        \ "#cc6666",
-        \ "#b5bd68",
-        \ "#f0c674",
-        \ "#81a2be",
-        \ "#b294bb",
-        \ "#8abeb7",
-        \ "#ffffff",
         \ ]
 endif
 
