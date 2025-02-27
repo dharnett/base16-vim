@@ -15,8 +15,8 @@ if !has("gui_running")
 endif
 
 " GUI color definitions
-let s:gui00        = "1d1d1d"
-let g:base16_gui00 = "1d1d1d"
+let s:gui00        = "1d1f21"
+let g:base16_gui00 = "1d1f21"
 let s:gui01        = "282a2e"
 let g:base16_gui01 = "282a2e"
 let s:gui02        = "373b41"
@@ -115,7 +115,7 @@ if has("nvim")
   let g:terminal_color_13 = "#b294bb"
   let g:terminal_color_14 = "#8abeb7"
   let g:terminal_color_15 = "#c5c8c6"
-  let g:terminal_color_background = "#1d1d1d"
+  let g:terminal_color_background = "#1d1f21"
   let g:terminal_color_foreground = "#c5c8c6"
   if &background == "light"
     let g:terminal_color_background = g:terminal_color_7
